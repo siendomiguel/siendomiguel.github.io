@@ -1,4 +1,5 @@
-# Portafolio de [Tu Nombre]
+# Portafolio de Miguel Lares
+### Alias Siendo Miguel Dev
 
 ¡Bienvenido a mi portafolio! Aquí encontrarás algunos de mis proyectos y trabajos más recientes. Soy un [desarrollador / diseñador] apasionado por aprender y crear nuevas experiencias con ese aprendizaje, ademas me encanta explorar nuevas tecnologías y enfoques para crear soluciones innovadoras.
 
@@ -40,6 +41,8 @@
 
 - Email: [siendomigueldev@gmail.com]
 - LinkedIn: [https://www.linkedin.com/in/siendomiguel/]
+- Twitter: [https://twitter.com/siendomigueldev]
+- Mi portafolio: [https://siendomiguel.github.io]
 
 ¡Gracias por visitar mi portafolio!
 
