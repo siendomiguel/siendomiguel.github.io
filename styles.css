@@ -1,0 +1,203 @@
+/*========== ESTILOS GENERALES ==========*/
+:root {
+  --backgroundColor: #ffffff;
+  --letterColor: #000;
+  --linksColor: #000;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  color: var(--letterColor);
+}
+
+body {
+  background-color: var(--backgroundColor);
+	font-family: 'Quicksand', sans-serif;
+}
+
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--linksColor);
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h3 {
+  color: #6575FF;
+  font-size: 2em;
+}
+
+h4 {
+  color: #6575FF;
+  font-size: 1.5em;
+}
+
+/*========== ESTILOS PERSONALIZADOS ==========*/
+
+/*========== CONTENT 1 ==========*/
+
+.main-menu {
+  height: 110px;
+  background-color: #B3BAFF;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1200px;
+  height: 100%;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu li {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px
+}
+
+.menu li a{
+  color: #ffffff;
+}
+
+.menu li a:hover{
+  color: #6575FF;
+  transition: 500ms
+}
+
+.box-content {
+  width: 1200px;
+  margin: auto;
+}
+
+.content-1 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  height: 500px;
+}
+
+.content-1 h1 {
+  text-align: center;
+  color: #6575FF;
+  
+}
+
+.content-1 h2 {
+  text-align: center;
+}
+
+.content-1 h2 .guion-bajo {
+  color: #6575FF;
+}
+
+.content-1 p {
+  text-align: center;
+}
+
+/*========== CONTENT 2 ==========*/
+
+.content-2 {
+  height: 450px;
+  margin: auto;
+}
+
+.content-2 .content-cards {
+  display: flex;
+  justify-content: space-between
+}
+
+.content-cards  .cards-exp {
+  width: 150px;
+  height: 150px;
+  background-color: #D9D9D9;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px 40px 0px;
+}
+
+
+.content-2 p {
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+
+.content-2 .guion-bajo {
+  color: #000;
+}
+
+
+/*========== CONTENT 3 ==========*/
+
+
+.content-3 {
+  height: 450px;
+  margin: auto;
+}
+
+.content-3 .content-cards {
+  display: flex;
+  justify-content: space-between
+}
+
+.content-cards  .cards-projects {
+  width: 570px;
+  height: 350px;
+  background-color: #D9D9D9;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 0px 40px 0px;
+}
+
+.content-3 .guion-bajo {
+  color: #000;
+}
+
+/*========== CONTENT 4 ==========*/
+
+.content-4 {
+  height: 200px;
+  margin: auto;
+}
+
+.content-4 .content-cards {
+  display: flex;
+  justify-content: space-between
+}
+
+.content-cards  .cards-contact {
+  width: 180px;
+  height: 50px;
+  background-color: #D9D9D9;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 0px 40px 0px;
+}
+
+.content-4 .guion-bajo {
+  color: #000;
+}
